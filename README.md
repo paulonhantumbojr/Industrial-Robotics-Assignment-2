@@ -10,7 +10,7 @@ The Industrial Robot manipulators used for this task are:
 - [Universal Robot UR3e](https://www.universal-robots.com/products/); and
 - [Franka Emika Panda Robot](https://www.franka.de/).
 
-The UR3 being an ultra-lightweight, compact cobot will be used to collect the dishes from the dishwasher employing visual-servoing techniques and place them on the top of a kitchen benchtop. The Panda Robot on the other hand with its ultra-sensitivity to contact forces will be used to collect the dishes from the benchtop and place them on cupboards installed vertically upwards.
-Both are set up in MATLAB with the use of their DH Parameters and corresponding CAD Models:
+The UR3 being an ultra-lightweight, compact cobot will be used to collect the dishes from the dishwasher employing visual-servoing techniques and place them on the top of a kitchen benchtop. The Panda Robot on the other hand with its ultra-sensitivity to contact forces will be used to collect the dishes from the benchtop and place them on their respective cupboards.
+Both are set up in MATLAB with the use of their official DH Parameters and corresponding CAD Models:
 - [UR3 DH Parameters](https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/)
 - [Panda Robot DH Parameters](https://frankaemika.github.io/docs/control_parameters.html#denavithartenberg-parameters)
