@@ -4,6 +4,16 @@ This is the repository for the code to be implemented in the project for Assignm
 The ultimate goal is to unload a dishwasher and store its dishes on cupboards. All tasks are modelled using MATLAB software in conjunction with the [Peter Corke's Toolbox modified by UTS](https://drive.google.com/file/d/1LIiJwiqPY4zTxIY6XEu7v6YEde-dq9xP/view?usp=sharing).
 Information about the robots used will be provided along with the files required to set them up.
 
+## Group Members
+The members responsible for developing this project are:
+- Mina Mina (@S3nt1nel22)
+- Julian Taffa (@V370c1ty)
+- Paulo Nhantumbo Junior (@pnhantumbojr)
+
+Under the supervision of:
+- Gavin Paul (@gapaul)
+- Tony Le (@tonydle)
+
 # Industrial Robot Arms
 
 The Industrial Robot manipulators used for this task are:
