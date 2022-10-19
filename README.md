@@ -24,3 +24,11 @@ The UR3 being an ultra-lightweight, compact cobot will be used to collect the di
 Both are set up in MATLAB with the use of their official DH Parameters and corresponding CAD Models:
 - [UR3 DH Parameters](https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/)
 - [Panda Robot DH Parameters](https://frankaemika.github.io/docs/control_parameters.html#denavithartenberg-parameters)
+
+# Setup
+To run the program, first ensure that the toolbox and code folders are part of the MATLAB Directory.
+1. Open `run_rmrc.m`.
+2. Launch the `Assessment2.fig`.
+3. Follow the GUI to run the code.
+
+If a real UR3 is being used run the `run_labur3.m`.
