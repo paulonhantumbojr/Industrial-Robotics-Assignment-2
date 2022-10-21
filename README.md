@@ -32,3 +32,4 @@ To run the program, first ensure that the toolbox and code folders are part of t
 3. Follow the GUI to run the code.
 
 If a real UR3 is being used run the `run_labur3.m`.
+To run the visual servoing that guides the UR3 arm to the position of a plate run `Visual_Servoing.m`.
