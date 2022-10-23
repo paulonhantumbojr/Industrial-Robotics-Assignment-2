@@ -23,7 +23,9 @@ The Industrial Robot manipulators used for this task are:
 The UR3 being an ultra-lightweight, compact cobot will be used to collect the dishes from the dishwasher employing visual-servoing techniques and place them on the top of a kitchen benchtop. The Panda Robot on the other hand with its ultra-sensitivity to contact forces will be used to collect the dishes from the benchtop and place them on their respective cupboards.
 Both are set up in MATLAB with the use of their official DH Parameters and corresponding CAD Models:
 - [UR3 DH Parameters](https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/)
+- [UR3 Link Meshes](https://drive.google.com/file/d/1NZBdMVdIXxeq7fd8oqGcLOqG9xiw7q1l/view?usp=sharing)
 - [Panda Robot DH Parameters](https://frankaemika.github.io/docs/control_parameters.html#denavithartenberg-parameters)
+- [Panda Link Meshes](https://drive.google.com/file/d/1mIbogNqddZfE6Wi-y3fjufj_Hij3x_Fi/view?usp=sharing)
 
 # Setup
 To run the program, first ensure that the toolbox and code folders are part of the MATLAB Directory.
