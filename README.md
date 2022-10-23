@@ -27,9 +27,5 @@ Both are set up in MATLAB with the use of their official DH Parameters and corre
 
 # Setup
 To run the program, first ensure that the toolbox and code folders are part of the MATLAB Directory.
-1. Open `run_rmrc.m`.
-2. Launch the `Assessment2.fig`.
-3. Follow the GUI to run the code.
-
-If a real UR3 is being used run the `run_labur3.m`.
-To run the visual servoing that guides the UR3 arm to the position of a plate run `Visual_Servoing.m`.
+1. Launch the Control Panel from the GUI folder, `ControlApp.mlapp`.
+2. The Visual Servoing is launched separately with plots `Assessment2.fig`.
