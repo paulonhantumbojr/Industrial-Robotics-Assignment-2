@@ -31,8 +31,8 @@ function GetPandaRobot(self)
       P(3) = Link([0   0.316      0.0825    pi/2   0]);  
       P(4) = Link([0     0        -0.0825    -pi/2   0]); 
       P(5) = Link([0   0.384      0    -pi/2   0]); 
-      P(6) = Link([0     0        0        pi/2   0]); 
-      P(7) = Link([0     0        0.088      pi/2   0]); 
+      P(6) = Link([0     0        0.088        pi/2   0]); 
+      P(7) = Link([0     -0.0107        0      pi/2   0]); 
  
 % Joint limits
       P(1).qlim = [-2.7437 2.7437];
