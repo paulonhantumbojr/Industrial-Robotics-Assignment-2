@@ -23,16 +23,7 @@ end
 % Given a name (optional), create and return a Panda robot model
 function GetPandaRobot(self)
         pause(0.001);
-        name = ['Panda',datestr(now,'yyyymmddTHHMMSSFFF')];
-
-% % Panda Robot DH Parameters (theta d a alpha joint-type)
-%       P(1) = Link([pi   0.333     0       -pi/2   0]);  
-%       P(2) = Link([0     0        0        pi/2   0]);  
-%       P(3) = Link([0   0.316      0        pi/2   0]);  
-%       P(4) = Link([0     0      0.0825    -pi/2   0]); 
-%       P(5) = Link([0   0.384   -0.0825    -pi/2   0]); 
-%       P(6) = Link([0     0        0        pi/2   0]); 
-%       P(7) = Link([0     0      0.088      pi/2   0]); 
+        name = ['Panda',datestr(now,'yyyymmddTHHMMSSFFF')]; 
 
 % Panda Robot DH Parameters (theta d a alpha joint-type)
       P(1) = Link([pi   0.333     0       -pi/2   0]);  
