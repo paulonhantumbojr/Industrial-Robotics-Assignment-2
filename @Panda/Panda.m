@@ -25,22 +25,31 @@ function GetPandaRobot(self)
         pause(0.001);
         name = ['Panda',datestr(now,'yyyymmddTHHMMSSFFF')];
 
+% % Panda Robot DH Parameters (theta d a alpha joint-type)
+%       P(1) = Link([pi   0.333     0       -pi/2   0]);  
+%       P(2) = Link([0     0        0        pi/2   0]);  
+%       P(3) = Link([0   0.316      0        pi/2   0]);  
+%       P(4) = Link([0     0      0.0825    -pi/2   0]); 
+%       P(5) = Link([0   0.384   -0.0825    -pi/2   0]); 
+%       P(6) = Link([0     0        0        pi/2   0]); 
+%       P(7) = Link([0     0      0.088      pi/2   0]); 
+
 % Panda Robot DH Parameters (theta d a alpha joint-type)
       P(1) = Link([pi   0.333     0       -pi/2   0]);  
       P(2) = Link([0     0        0        pi/2   0]);  
-      P(3) = Link([0   0.316      0        pi/2   0]);  
-      P(4) = Link([0     0      0.0825    -pi/2   0]); 
-      P(5) = Link([0   0.384   -0.0825    -pi/2   0]); 
+      P(3) = Link([0   0.316      0.0825    pi/2   0]);  
+      P(4) = Link([0     0        -0.0825    -pi/2   0]); 
+      P(5) = Link([0   0.384      0    -pi/2   0]); 
       P(6) = Link([0     0        0        pi/2   0]); 
-      P(7) = Link([0     0      0.088      pi/2   0]); 
+      P(7) = Link([0     0        0.088      pi/2   0]); 
  
 % Joint limits
       P(1).qlim = [-2.7437 2.7437];
       P(2).qlim = [-1.7837 1.7837];
       P(3).qlim = [-2.9007 2.9007];
-      P(4).qlim = [-3.0421 3.0421]; % [-3.0421 -0.1518]
+      P(4).qlim = [-3.0421 -0.1518];
       P(5).qlim = [-2.8065 2.8065];
-      P(6).qlim = [-4.5169 4.5169]; % [0.5445 4.5169]
+      P(6).qlim = [0.5445 4.5169];
       P(7).qlim = [-3.0159 3.0159];
 
     self.model = SerialLink(P,'name',name);
