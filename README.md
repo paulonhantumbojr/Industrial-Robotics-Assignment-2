@@ -29,5 +29,7 @@ Both are set up in MATLAB with the use of their official DH Parameters and corre
 
 # Setup
 To run the program, first ensure that the toolbox and code folders are part of the MATLAB Directory.
-1. Launch the Control Panel from the GUI folder, `ControlApp.mlapp`.
-2. The Visual Servoing is launched separately with plots `Assessment2.fig`.
+1. Launch the Control Panel from the GUI folder, `ControlPanel.mlapp`.
+2. The Visual Servoing demo is launched from the Visual Servoing folder, `Visual_Servoing.m`.
+3. The Light Curtain demo is launched from the Light Curtain folder, `run_curtain.m`.
+4. The Line and Plane Collision detection demo is launched from the Collision Detection folder, `run_curtain.m`.
