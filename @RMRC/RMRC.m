@@ -13,6 +13,9 @@ classdef RMRC < handle
         
         %> Swaps between RMRC (true) and inverse kinematics (false)
         resolvedMotionRateControl; 
+        
+        %> Collision handler
+        collisioncheck;
     end
     
     methods 
@@ -20,6 +23,10 @@ classdef RMRC < handle
         function self = RMRC(robot,resolvedMotionRateControl)         
             self.robot = robot;
             self.resolvedMotionRateControl = resolvedMotionRateControl;        
+        end
+        
+        function setCollision(self, robot, centerPoints, radii)
+            self.collisionChecker = CollisionChecker(robot, centerPoints, radii);
         end
         
         function MoveRobot (self)
